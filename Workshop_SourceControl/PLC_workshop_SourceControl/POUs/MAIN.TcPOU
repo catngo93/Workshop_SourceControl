@@ -5,17 +5,29 @@
 VAR
 	//cmt 1
 	bTest_1 : BOOL;
+	
+	//cmt 2
+	bTest_2 : BOOL;
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[// --- Version 1 --- 
 // Program 1
-// -----------------]]></ST>
+// -----------------
+
+
+// --- Version 2 --- 
+// Program 2
+// -----------------
+]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
       <LineId Id="9" Count="0" />
       <LineId Id="8" Count="0" />
+      <LineId Id="11" Count="1" />
+      <LineId Id="16" Count="2" />
+      <LineId Id="10" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
